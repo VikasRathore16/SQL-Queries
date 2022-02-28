@@ -1,0 +1,1 @@
+SELECT * FROM `Orders` ORDER BY `order_date` DESC;
