@@ -1,0 +1,1 @@
+SELECT COUNT(order_id),`shipping_address` FROM Orders GROUP BY `shipping_address`;
