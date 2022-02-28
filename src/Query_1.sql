@@ -1,10 +1,12 @@
 CREATE DATABASE Store;
 use Store;
 
-CREATE TABLE Products(product_id  int(50),
+CREATE TABLE Products(
+product_id  int(50),
 product_name  varchar(100),
 product_image  varchar(100),
-product_category  varchar(100),product_sale_price  varchar(20),
+product_category  varchar(100),
+product_sale_price  varchar(20),
 product_list_price  varchar(20),
 CHECK(product_category In ("electronics","fashion","home appliances","furniture","jewellery"))
 );
